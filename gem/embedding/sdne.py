@@ -23,7 +23,7 @@ from keras.layers import Input, Dense, Lambda, merge
 from keras.models import Model, model_from_json
 import keras.regularizers as Reg
 from keras.optimizers import SGD, Adam
-from keras import backend as KBack
+from tensorflow.keras import backend as KBack
 
 from time import time
 
